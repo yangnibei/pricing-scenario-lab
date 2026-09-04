@@ -8,6 +8,13 @@
 
 ![Pricing Scenario Lab: reproducible analysis](analysis.svg)
 
+## Visual guide
+
+- **Left — profit sensitivity:** compares contribution less fixed costs across the price grid and marks each scenario's grid-best point.
+- **Right — assumption sensitivity:** shows how the grid-best price changes with elasticity; hollow points are boundary solutions, not unconstrained optima.
+
+All demand curves use the same invented anchor of price 100 and 1,000 units. The figure focuses on the resulting decision sensitivity rather than repeating those curves.
+
 ## Business brief
 
 This explicitly synthetic decision lab explores a focused business question using **Constant-elasticity scenarios, break-even economics, sensitivity analysis**. Read the results alongside their assumptions before acting on them.
@@ -48,4 +55,3 @@ This repository is an educational portfolio case study, not paid client work, em
 - `REPORT.md`: generated findings and decision boundaries.
 - `results.json`: aggregate metrics and source provenance.
 - `analysis.svg`: reproducible figure.
-
