@@ -1,0 +1,44 @@
+{
+  "project": "Pricing Scenario Lab",
+  "metrics": {
+    "data_type": "ASSUMPTION-DRIVEN SIMULATION",
+    "base_price": 100,
+    "base_units": 1000,
+    "unit_variable_cost": 45,
+    "fixed_cost": 20000,
+    "baseline_profit": 35000,
+    "price_grid_min": 70.0,
+    "price_grid_max": 150.0,
+    "scenarios": [
+      {
+        "elasticity": -1.0,
+        "best_price_within_grid": 150.0,
+        "profit_at_grid_best": 50000.0,
+        "volume_at_grid_best": 666.666667,
+        "boundary_optimum": true
+      },
+      {
+        "elasticity": -1.5,
+        "best_price_within_grid": 135.0,
+        "profit_at_grid_best": 37377.531055,
+        "volume_at_grid_best": 637.528123,
+        "boundary_optimum": false
+      },
+      {
+        "elasticity": -2.0,
+        "best_price_within_grid": 90.0,
+        "profit_at_grid_best": 35555.555556,
+        "volume_at_grid_best": 1234.567901,
+        "boundary_optimum": false
+      },
+      {
+        "elasticity": -3.0,
+        "best_price_within_grid": 70.0,
+        "profit_at_grid_best": 52886.297376,
+        "volume_at_grid_best": 2915.451895,
+        "boundary_optimum": true
+      }
+    ]
+  },
+  "provenance": {}
+}
